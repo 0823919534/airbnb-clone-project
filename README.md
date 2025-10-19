@@ -33,3 +33,18 @@ The database will be managed using Sequelize ORM with SQLite in development and 
 - **Axios / Fetch:** Frontend HTTP clients.
 - **bcrypt / jsonwebtoken:** Password hashing and token management.
 - **ESLint / Prettier:** Code quality and formatting tools.
+## Feature Breakdown
+
+The AirBnB Clone project includes the following main features:
+
+- **User Management:** Allows guests and hosts to create accounts, log in securely, and manage profiles. This feature supports authentication, authorization, and role-based access for different types of users.
+
+- **Property Management:** Enables hosts to create, edit, and delete property listings, including details like title, description, price, and images. This feature ensures listings are well-organized and discoverable by guests.
+
+- **Booking System:** Lets guests browse listings, select available dates, and book properties. It handles scheduling conflicts, calculates total price, and updates booking status, ensuring a smooth rental experience.
+
+- **Search & Filtering:** Allows guests to search listings by location, price, and other criteria. This improves usability and helps users find properties that match their preferences.
+
+- **Reviews & Ratings (optional):** Guests can leave reviews and ratings for listings they have stayed at. This helps maintain quality and trust within the platform.
+
+- **Notifications (optional):** Sends alerts to users for booking confirmations, cancellations, and updates. This keeps users informed and engaged.
