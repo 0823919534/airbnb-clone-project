@@ -2,7 +2,6 @@
 
 AirBnB Clone — learning project to reproduce core features of a short-term rental marketplace.
 Goals: implement user auth, property listings (CRUD), search/filter, booking flow, and a responsive UI.
-Tech stack: React, Node/Express, Sequelize, SQLite/PostgreSQL, JWT, AWS S3, Jest, Docker
 
 ## Database Design
 
@@ -22,7 +21,7 @@ The database will be managed using Sequelize ORM with SQLite in development and 
 
 ## Technology Stack
 
-- **React / Vite:** Frontend libraries for building the user interface.
+- **React / Vite / Next.js:** Frontend libraries/frameworks for building the user interface.
 - **Node.js & Express:** Backend runtime and web framework for building RESTful APIs.
 - **Sequelize / ORM:** Object-Relational Mapper for interacting with the database.
 - **SQLite / PostgreSQL:** Relational databases for development and production.
@@ -34,3 +33,9 @@ The database will be managed using Sequelize ORM with SQLite in development and 
 - **Axios / Fetch:** Frontend HTTP clients.
 - **bcrypt / jsonwebtoken:** Password hashing and token management.
 - **ESLint / Prettier:** Code quality and formatting tools.
+
+## Future Sections (placeholders)
+- ## User Authentication
+- ## Listings CRUD
+- ## Booking Flow
+- ## Deployment
