@@ -1,0 +1,11 @@
+﻿# Node / general
+node_modules/
+.env
+.env.*
+dist/
+build/
+.vscode/
+.DS_Store
+*.sqlite
+*.sqlite3
+*.log
