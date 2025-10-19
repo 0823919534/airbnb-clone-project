@@ -73,3 +73,16 @@ The AirBnB Clone backend will implement several key security measures:
 - ## Booking Flow
 - ## Deployment
 - ## Additional Features
+## CI/CD Pipeline
+
+A CI/CD (Continuous Integration / Continuous Deployment) pipeline automates the process of testing, building, and deploying code changes. This ensures that new features and bug fixes are integrated smoothly, reducing human errors and speeding up delivery.
+
+For the AirBnB Clone project, CI/CD helps to:
+- Automatically run tests on every code commit to catch errors early.
+- Build and deploy the frontend and backend consistently across environments.
+- Maintain code quality and stability while allowing faster iteration.
+
+Tools that could be used for CI/CD include:
+- **GitHub Actions:** Automates testing, builds, and deployments triggered by Git pushes or pull requests.
+- **Docker / Docker Compose:** Provides consistent containerized environments for development, testing, and production.
+- **Vercel / Railway / Heroku:** Platforms for automated deployment of frontend and backend services.
