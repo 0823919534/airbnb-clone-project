@@ -50,9 +50,26 @@ The AirBnB Clone project includes the following main features:
 
 - **Notifications (optional):** Sends alerts to users for booking confirmations, cancellations, and updates. This keeps users informed and engaged.
 
+## API Security
+
+The AirBnB Clone backend will implement several key security measures:
+
+- **Authentication:** Users must log in securely using JWT tokens or OAuth methods. This ensures only verified users can access the system, protecting sensitive user data.
+
+- **Authorization:** Role-based access control ensures guests and hosts can only perform actions they are allowed to. For example, a guest cannot modify a host’s listing. This prevents unauthorized actions and data breaches.
+
+- **Rate Limiting:** Limits the number of requests a user or IP can make in a certain timeframe. This protects against abuse, brute-force attacks, and potential denial-of-service attacks.
+
+- **Input Validation & Sanitization:** All API inputs will be validated and sanitized to prevent injection attacks, XSS, and other common vulnerabilities.
+
+- **HTTPS & Data Encryption:** All communication will use HTTPS, and sensitive data like passwords will be hashed using bcrypt. This secures data in transit and at rest.
+
+- **Logging & Monitoring:** Security events and suspicious activities will be logged and monitored. This helps detect breaches early and maintain accountability.
+
 ## Future Sections (placeholders)
 
 - ## User Authentication
 - ## Listings CRUD
 - ## Booking Flow
 - ## Deployment
+- ## Additional Features
