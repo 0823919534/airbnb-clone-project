@@ -1,6 +1,6 @@
-# airbnb-clone-project
+﻿# airbnb-clone-project
 
-AirBnB Clone � learning project to reproduce core features of a short-term rental marketplace.
+AirBnB Clone — learning project to reproduce core features of a short-term rental marketplace.
 Goals: implement user auth, property listings (CRUD), search/filter, booking flow, and a responsive UI.
 
 ## Database Design
@@ -33,6 +33,7 @@ The database will be managed using Sequelize ORM with SQLite in development and 
 - **Axios / Fetch:** Frontend HTTP clients.
 - **bcrypt / jsonwebtoken:** Password hashing and token management.
 - **ESLint / Prettier:** Code quality and formatting tools.
+
 ## Feature Breakdown
 
 The AirBnB Clone project includes the following main features:
@@ -48,3 +49,10 @@ The AirBnB Clone project includes the following main features:
 - **Reviews & Ratings (optional):** Guests can leave reviews and ratings for listings they have stayed at. This helps maintain quality and trust within the platform.
 
 - **Notifications (optional):** Sends alerts to users for booking confirmations, cancellations, and updates. This keeps users informed and engaged.
+
+## Future Sections (placeholders)
+
+- ## User Authentication
+- ## Listings CRUD
+- ## Booking Flow
+- ## Deployment
